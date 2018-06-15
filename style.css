@@ -4,10 +4,21 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+h1.white:after {
+	color: white;
+}
+
+h3.white{
+	color: white;
+}
+
+/*=============== Navbar ===============*/
 .navbar{
 	height: 70px;
 }
+/*=============== Navbar ===============*/
 
+/*=============== Content1 ===============*/
 .content1 {
 	position: relative;
     background: #666666;
@@ -41,6 +52,7 @@ body {
 	position: relative;
     color: #fff;
     z-index: 2;
+    margin-top: 5%;
 }
 
 .content1 h3 {
@@ -57,6 +69,18 @@ body {
     margin-top: 5%;
 }
 
+.content1 button {
+	margin-top: 5%;
+	width: 35%;
+	height: 50px;
+	border-radius: 20px;
+	border-width: 3px;
+}
+/*=============== Content1 ===============*/
+
+
+
+/*=============== Content2 ===============*/
 .content2 {
 	height: 175px;
 	text-align: center;
@@ -64,31 +88,51 @@ body {
 	background-color: #f7f7f7;
 	padding: 5%;
 }
+/*=============== Content2 ===============*/
 
+
+
+/*=============== Content3 ===============*/
 .content3 {
 	text-align: center;
 	background-color: #ebe8e2;
-
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
 }
 
+.content3 i {
+	font-size: 4.2em;
+}
+
+.content3 h4 {
+    margin-top: 120px;
+}
+
+.content3 h5 {
+    margin-top: 50px;
+}
+
+.icon_content3 {
+	margin-top: 50px;
+}
+
+.icon_content3 h6 {
+	color: #898989;
+}
+/*=============== Content3 ===============*/
+
+
+
+/*=============== Content4 & 5 ===============*/
 .content4 {
 	text-align: center;
 	background-color: #b9b2a1;
-	/*padding-left: 10%;*/
-	/*padding-right: 10%;*/
+	padding-left: 5%;
 }
 
 .content5 {
 	text-align: center;
 	background-color: #302d2e;
-	/*padding-left: 10%;*/
-	/*padding-right: 10%;*/
 }
-
-h1.white:after {
-	color: white;
-}
-
-h3.white{
-	color: white;
-}
+/*=============== Content4 & 5 ===============*/
