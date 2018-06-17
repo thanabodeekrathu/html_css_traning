@@ -7,8 +7,9 @@ body {
 /*=============== Navbar ===============*/
 .navbar{
 	height: 70px;
-	/*padding-left: 7%;*/
-	/*background-color: black;*/
+	padding-left: 7%;
+	padding-right: 7%;
+	background-color: #302d2e;
 }
 /*=============== Navbar ===============*/
 
@@ -17,10 +18,9 @@ body {
 	position: relative;
     background: #666666;
     overflow: hidden;
-    /*height: 650px;*/
     text-align: center;
 }
-/*
+
 .content1:before {
 	content: ' ';
     display: block;
@@ -40,7 +40,7 @@ body {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-}*/
+}
 
 .content1 h1 {
 	position: relative;
@@ -86,6 +86,23 @@ body {
 .content2 img {
 	padding-top: 5%;
 
+}
+
+#github_logo {
+	width: 120px; 
+	margin-top: 10px;
+}
+
+#linkedin_logo {
+	width: 170px;
+}
+
+#rails_logo {
+	width: 150px;
+}
+
+#boostrap_logo {
+	width: 200px;
 }
 /*=============== Content2 ===============*/
 
